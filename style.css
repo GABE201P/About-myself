@@ -1,0 +1,62 @@
+*The site header*/
+.site-header{
+    background:blue;
+    color: white;
+    padding: 0;
+    box-shadow:0 2px 5px igba(00001);
+}
+
+.My-style{
+    margin: 0;
+    font-size:1.3rem;
+}
+
+.my-brand{
+ margin: 0%;
+ font-size: 2rem;
+ padding-bottom: 5xrem;
+}
+
+ /*main content*/
+ ul{
+    list-style: none;
+    font-size: medium;
+ }
+
+body{
+    background-color:white;
+    color: blue;
+    font-size: medium;
+}
+
+.me-list{
+    margin-left: 200px;
+    margin-top: -150px;
+}
+
+#About-miles{
+    margin-bottom: 100px;
+}
+
+/*anchor tags*/
+
+a{
+    color: white;
+    text-decoration: none;
+    transition:text-decoration 0.3s ease; 
+}
+
+a:hover{
+    text-decoration: line-through;
+}
+
+/*navigation*/
+
+.nav-list{
+    list-style: none;
+    text-decoration:none;
+    padding-top:4rem;
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+}
